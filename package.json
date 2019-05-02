@@ -1,0 +1,21 @@
+{
+  "name": "pipelib",
+  "version": "0.0.1",
+  "description": "pipelib",
+  "main": "lib/index.js",
+  "source": "src/index.ts",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bunyan": "^1.8.6",
+    "@types/node": "^11.13.8",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12"
+  }
+}
